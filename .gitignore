@@ -80,22 +80,19 @@ venv.bak/
 models/
 checkpoints/
 
-# Data files (large datasets)
-*.csv
-*.tsv
-*.xlsx
-*.xls
-*.json
-*.xml
-*.parquet
-*.feather
-*.msgpack
+# Data files (large datasets - only ignore new large files)
+# Note: Existing data files in merged projects are already tracked and will remain
+# To ignore new large data files, uncomment the patterns below:
+# *.csv
+# *.tsv
+# *.xlsx
+# *.xls
 
-# Exception: Keep small example/config files
-!example*.csv
-!sample*.csv
+# Always allow config files
 !config*.json
 !feature_order.json
+!*config*.csv
+!*sample*.csv
 
 # Logs
 *.log
