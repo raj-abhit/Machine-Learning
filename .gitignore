@@ -1,0 +1,128 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PyCharm
+.idea/
+*.iml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Environments
+.env
+.env.local
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Machine Learning / Data Science
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.model
+*.weights
+models/
+checkpoints/
+
+# Data files (large datasets)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.parquet
+*.feather
+*.msgpack
+
+# Exception: Keep small example/config files
+!example*.csv
+!sample*.csv
+!config*.json
+!feature_order.json
+
+# Logs
+*.log
+logs/
+*.out
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Streamlit
+.streamlit/
